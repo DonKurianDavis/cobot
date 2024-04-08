@@ -1,0 +1,46 @@
+[0.253s] Invoking command in '/home/don/cobot_ws/build/cobot_moveit_config': /usr/bin/cmake /home/don/cobot_ws/src/cobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/don/cobot_ws/install/cobot_moveit_config
+[0.335s] -- The C compiler identification is GNU 11.4.0
+[0.386s] -- The CXX compiler identification is GNU 11.4.0
+[0.396s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.468s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.468s] -- Detecting C compile features
+[0.469s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.689s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.821s] Error parsing '/home/don/cobot_ws/src/cobot_moveit_config/package.xml':
+[0.857s] Traceback (most recent call last):
+[0.857s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.857s]     main()
+[0.857s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.857s]     raise e
+[0.857s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.857s]     package = parse_package_string(
+[0.858s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.858s]     pkg.validate(warnings=warnings)
+[0.858s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.858s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.858s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/don/cobot_ws/src/cobot_moveit_config/package.xml':
+[0.858s] Invalid email "" for person "cobot"
+[0.858s] Maintainers must have an email address
+[0.858s] Invalid email "" for person "cobot"
+[0.869s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.869s]   execute_process(/usr/bin/python3
+[0.869s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.869s]   /home/don/cobot_ws/src/cobot_moveit_config/package.xml
+[0.869s]   /home/don/cobot_ws/build/cobot_moveit_config/ament_cmake_core/package.cmake)
+[0.870s]   returned error code 1
+[0.870s] Call Stack (most recent call first):
+[0.870s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.870s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.870s]   CMakeLists.txt:6 (ament_package)
+[0.870s] 
+[0.870s] [0m
+[0.870s] -- Configuring incomplete, errors occurred!
+[0.870s] See also "/home/don/cobot_ws/build/cobot_moveit_config/CMakeFiles/CMakeOutput.log".
+[0.874s] Invoked command in '/home/don/cobot_ws/build/cobot_moveit_config' returned '1': /usr/bin/cmake /home/don/cobot_ws/src/cobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/don/cobot_ws/install/cobot_moveit_config

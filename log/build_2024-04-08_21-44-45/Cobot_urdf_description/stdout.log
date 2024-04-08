@@ -1,0 +1,59 @@
+running develop
+running egg_info
+creating Cobot_urdf_description.egg-info
+writing Cobot_urdf_description.egg-info/PKG-INFO
+writing dependency_links to Cobot_urdf_description.egg-info/dependency_links.txt
+writing entry points to Cobot_urdf_description.egg-info/entry_points.txt
+writing requirements to Cobot_urdf_description.egg-info/requires.txt
+writing top-level names to Cobot_urdf_description.egg-info/top_level.txt
+writing manifest file 'Cobot_urdf_description.egg-info/SOURCES.txt'
+reading manifest file 'Cobot_urdf_description.egg-info/SOURCES.txt'
+writing manifest file 'Cobot_urdf_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/don/cobot_ws/install/Cobot_urdf_description/lib/python3.10/site-packages/Cobot-urdf-description.egg-link (link to .)
+Installing test_node script to /home/don/cobot_ws/install/Cobot_urdf_description/lib/Cobot_urdf_description
+
+Installed /home/don/cobot_ws/build/Cobot_urdf_description
+running symlink_data
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/ament_index
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/ament_index/resource_index
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/ament_index/resource_index/packages
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/resource/Cobot_urdf_description -> /home/don/cobot_ws/install/Cobot_urdf_description/share/ament_index/resource_index/packages
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/package.xml -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/launch
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/launch/display.launch.py -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/launch
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/launch/gazebo.launch.py -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/launch
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/urdf
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/urdf/materials.xacro -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/urdf
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/urdf/Cobot_urdf.trans -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/urdf
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/urdf/Cobot_urdf.xacro -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/urdf
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/urdf/Cobot_urdf.gazebo -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/urdf
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_stepper_motor_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_stepper_motor_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_spur_gear100_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_spur_gear_25_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_spur_gear_100_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_spur_gear_25_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/pivot_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_stepper_motor_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_connector_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/pivot_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_spur_gear100_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/arm_connector_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/base_link.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_connector_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/arm_connector_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_connector_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_connector_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_spur_gear25_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/shoulder_spur_gear25_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_spur_gear_100_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/wrist_stepper_motor_1 (1).stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/meshes/gripper_1.stl -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/meshes
+creating /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/config
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/config/display.rviz -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/config
+symbolically linking /home/don/cobot_ws/build/Cobot_urdf_description/config/cobot_controller.yaml -> /home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/config

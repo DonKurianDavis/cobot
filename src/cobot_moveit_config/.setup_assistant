@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: Cobot_urdf_description
+    relative_path: urdf/Cobot_urdf.xacro
+  srdf:
+    relative_path: config/Cobot_urdf.srdf
+  package_settings:
+    author_name: cobot
+    author_email: cobot@gmail.com
+    generated_timestamp: 1712594182

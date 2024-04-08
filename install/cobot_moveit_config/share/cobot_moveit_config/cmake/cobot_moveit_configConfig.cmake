@@ -1,0 +1,1 @@
+/home/don/cobot_ws/build/cobot_moveit_config/ament_cmake_core/cobot_moveit_configConfig.cmake

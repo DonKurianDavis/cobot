@@ -1,0 +1,21 @@
+[0.569s] Invoking command in '/home/don/cobot_ws/build/Cobot_urdf_description': PYTHONPATH=/home/don/cobot_ws/build/Cobot_urdf_description/prefix_override:/home/don/cobot_ws/install/Cobot_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/don/cobot_ws/build/Cobot_urdf_description/build --no-deps symlink_data
+[0.780s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.781s]   warnings.warn(
+[0.819s] running develop
+[0.819s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.819s]   warnings.warn(
+[0.990s] running egg_info
+[0.990s] writing Cobot_urdf_description.egg-info/PKG-INFO
+[0.990s] writing dependency_links to Cobot_urdf_description.egg-info/dependency_links.txt
+[0.990s] writing entry points to Cobot_urdf_description.egg-info/entry_points.txt
+[0.990s] writing requirements to Cobot_urdf_description.egg-info/requires.txt
+[0.990s] writing top-level names to Cobot_urdf_description.egg-info/top_level.txt
+[0.992s] reading manifest file 'Cobot_urdf_description.egg-info/SOURCES.txt'
+[0.993s] writing manifest file 'Cobot_urdf_description.egg-info/SOURCES.txt'
+[0.994s] running build_ext
+[0.994s] Creating /home/don/cobot_ws/install/Cobot_urdf_description/lib/python3.10/site-packages/Cobot-urdf-description.egg-link (link to .)
+[0.995s] Installing test_node script to /home/don/cobot_ws/install/Cobot_urdf_description/lib/Cobot_urdf_description
+[0.995s] 
+[0.995s] Installed /home/don/cobot_ws/build/Cobot_urdf_description
+[0.995s] running symlink_data
+[1.016s] Invoked command in '/home/don/cobot_ws/build/Cobot_urdf_description' returned '0': PYTHONPATH=/home/don/cobot_ws/build/Cobot_urdf_description/prefix_override:/home/don/cobot_ws/install/Cobot_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/don/cobot_ws/build/Cobot_urdf_description/build --no-deps symlink_data

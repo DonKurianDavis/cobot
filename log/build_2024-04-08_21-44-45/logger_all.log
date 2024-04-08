@@ -1,0 +1,142 @@
+[0.193s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.193s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d7279c868f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d7279d98be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d7279d98be0>>, mixin_verb=('build',))
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.459s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/don/cobot_ws'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot' with type 'ros.ament_python' and name 'Cobot_urdf_description'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/cobot_moveit_config'
+[0.486s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/cobot_moveit_config': Error(s) in package 'src/cobot_moveit_config/package.xml':
+Invalid email "" for person "cobot"
+Maintainers must have an email address
+Invalid email "" for person "cobot"
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_moveit_config) by extension 'python'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot_moveit_config' with type 'cmake' and name 'cobot_moveit_config'
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.512s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/don/cobot_ws/install/Cobot_urdf_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/don/cobot_ws/install
+[0.515s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'Cobot_urdf_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'Cobot_urdf_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/don/cobot_ws/build/Cobot_urdf_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/don/cobot_ws/install/Cobot_urdf_description', 'merge_install': False, 'path': '/home/don/cobot_ws/src/cobot', 'symlink_install': True, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'cobot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.596s] DEBUG:colcon.colcon_core.verb:Building package 'cobot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/don/cobot_ws/build/cobot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/don/cobot_ws/install/cobot_moveit_config', 'merge_install': False, 'path': '/home/don/cobot_ws/src/cobot_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.596s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.597s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/don/cobot_ws/src/cobot' with build type 'ament_python'
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('Cobot_urdf_description', 'ament_prefix_path')
+[0.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/hook/ament_prefix_path.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/hook/ament_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/don/cobot_ws/install/Cobot_urdf_description/share/Cobot_urdf_description/hook/ament_prefix_path.sh'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/don/cobot_ws/src/cobot_moveit_config'
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.855s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/don/cobot_ws/src/cobot'
+[0.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/don/cobot_ws/build/cobot_moveit_config': /usr/bin/cmake /home/don/cobot_ws/src/cobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/don/cobot_ws/install/cobot_moveit_config
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/don/cobot_ws/build/Cobot_urdf_description': PYTHONPATH=/home/don/cobot_ws/build/Cobot_urdf_description/prefix_override:/home/don/cobot_ws/install/Cobot_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/don/cobot_ws/build/Cobot_urdf_description/build --no-deps symlink_data
+[1.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/don/cobot_ws/build/cobot_moveit_config' returned '1': /usr/bin/cmake /home/don/cobot_ws/src/cobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/don/cobot_ws/install/cobot_moveit_config
+[1.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.739s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.749s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.759s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/don/cobot_ws/install/local_setup.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/don/cobot_ws/install/_local_setup_util_ps1.py'
+[1.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/don/cobot_ws/install/setup.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/don/cobot_ws/install/local_setup.sh'
+[1.763s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/don/cobot_ws/install/_local_setup_util_sh.py'
+[1.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/don/cobot_ws/install/setup.sh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/don/cobot_ws/install/local_setup.bash'
+[1.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/don/cobot_ws/install/setup.bash'
+[1.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/don/cobot_ws/install/local_setup.zsh'
+[1.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/don/cobot_ws/install/setup.zsh'
