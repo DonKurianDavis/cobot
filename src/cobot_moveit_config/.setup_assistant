@@ -1,10 +1,25 @@
 moveit_setup_assistant_config:
   urdf:
-    package: Cobot_urdf_description
-    relative_path: urdf/Cobot_urdf.xacro
+    package: cobot_urdf_description
+    relative_path: urdf/cobot_urdf.xacro
   srdf:
-    relative_path: config/Cobot_urdf.srdf
+    relative_path: config/cobot_urdf.srdf
   package_settings:
     author_name: cobot
     author_email: cobot@gmail.com
-    generated_timestamp: 1712594182
+    generated_timestamp: 1712850217
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

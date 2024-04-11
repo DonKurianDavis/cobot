@@ -1,1 +1,0 @@
-/home/don/cobot_ws/build/cobot_moveit_config/ament_cmake_environment_hooks/local_setup.sh

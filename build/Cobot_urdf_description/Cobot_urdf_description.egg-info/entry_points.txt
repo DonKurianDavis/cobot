@@ -1,3 +1,0 @@
-[console_scripts]
-test_node = Cobot_urdf_description.inverse_kinematic:main
-

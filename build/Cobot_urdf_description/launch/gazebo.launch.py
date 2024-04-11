@@ -1,1 +1,0 @@
-/home/don/cobot_ws/src/cobot/launch/gazebo.launch.py

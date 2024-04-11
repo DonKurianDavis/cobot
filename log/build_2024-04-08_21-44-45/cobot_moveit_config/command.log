@@ -1,2 +1,0 @@
-Invoking command in '/home/don/cobot_ws/build/cobot_moveit_config': /usr/bin/cmake /home/don/cobot_ws/src/cobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/don/cobot_ws/install/cobot_moveit_config
-Invoked command in '/home/don/cobot_ws/build/cobot_moveit_config' returned '1': /usr/bin/cmake /home/don/cobot_ws/src/cobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/don/cobot_ws/install/cobot_moveit_config

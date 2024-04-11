@@ -1,4 +1,4 @@
-# Default initial positions for Cobot_urdf's ros2_control fake system
+# Default initial positions for cobot_urdf's ros2_control fake system
 
 initial_positions:
   Revolute 36: 0
